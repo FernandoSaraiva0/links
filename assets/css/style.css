@@ -1,16 +1,17 @@
 /* ============================================
-   TERMINAL LINUX THEME - Fernando Saraiva
+   FEDORA LINUX THEME - Fernando Saraiva
+   Inspired by Fedora's clean and professional design
    ============================================ */
 
 /* Terminal Header (Window Controls) */
 .terminal-header {
-    background: #1a1a1a;
+    background: #1a1d23;
     padding: 10px 15px;
-    border-bottom: 2px solid #00ff00;
+    border-bottom: 2px solid #51A2DA;
     display: flex;
     align-items: center;
     gap: 8px;
-    box-shadow: 0 2px 10px rgba(0, 255, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(81, 162, 218, 0.1);
 }
 
 .terminal-button {
@@ -37,10 +38,10 @@
 
 .terminal-title {
     margin-left: 15px;
-    color: #00ff00;
+    color: #51A2DA;
     font-family: 'Courier New', monospace;
     font-size: 0.9rem;
-    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+    text-shadow: 0 0 5px rgba(81, 162, 218, 0.5);
 }
 
 /* Terminal Prompt */
@@ -51,15 +52,15 @@
 }
 
 .prompt-symbol {
-    color: #00ff00;
-    text-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+    color: #51A2DA;
+    text-shadow: 0 0 5px rgba(81, 162, 218, 0.7);
     font-weight: bold;
 }
 
 .prompt-command {
-    color: #00d9ff;
+    color: #3c6eb4;
     margin-left: 10px;
-    text-shadow: 0 0 5px rgba(0, 217, 255, 0.5);
+    text-shadow: 0 0 5px rgba(60, 110, 180, 0.5);
 }
 
 /* Profile Section */
@@ -75,20 +76,20 @@
     display: block;
     margin: 20px auto;
     border-radius: 50%;
-    border: 3px solid #00ff00;
-    box-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+    border: 3px solid #51A2DA;
+    box-shadow: 0 0 20px rgba(81, 162, 218, 0.4);
     transition: all 0.3s ease;
-    filter: grayscale(20%);
+    filter: brightness(0.95);
 }
 
 #userPhoto:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px rgba(0, 255, 0, 0.6);
-    filter: grayscale(0%);
+    box-shadow: 0 0 30px rgba(81, 162, 218, 0.6);
+    filter: brightness(1);
 }
 
 #userName {
-    color: #00ff00;
+    color: #51A2DA;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -102,22 +103,22 @@
     font-weight: 700;
     letter-spacing: 0.1rem;
     margin: 15px auto;
-    color: #00ff00;
-    text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+    color: #51A2DA;
+    text-shadow: 0 0 10px rgba(81, 162, 218, 0.8);
 }
 
 #userName p {
     font-weight: 400;
     margin-top: 5px;
-    color: #00d9ff;
+    color: #3c6eb4;
     font-size: 1.1rem;
-    text-shadow: 0 0 5px rgba(0, 217, 255, 0.5);
+    text-shadow: 0 0 5px rgba(60, 110, 180, 0.5);
 }
 
 /* Typewriter Effect */
 .typewriter {
     overflow: hidden;
-    border-right: 2px solid #00ff00;
+    border-right: 2px solid #51A2DA;
     white-space: nowrap;
     margin: 0 auto;
     animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
@@ -139,7 +140,7 @@
         border-color: transparent;
     }
     50% {
-        border-color: #00ff00;
+        border-color: #51A2DA;
     }
 }
 
@@ -155,12 +156,12 @@
 h2,
 h3 {
     text-align: center;
-    color: #00ff00;
+    color: #51A2DA;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-family: 'Courier New', monospace;
     font-size: 1.8rem;
-    text-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
+    text-shadow: 0 0 10px rgba(81, 162, 218, 0.6);
     letter-spacing: 0.05rem;
 }
 
@@ -168,9 +169,9 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(0, 255, 0, 0.05);
-    color: #00ff00;
-    border: 2px solid #00ff00;
+    background-color: rgba(81, 162, 218, 0.05);
+    color: #51A2DA;
+    border: 2px solid #51A2DA;
     margin-bottom: 1.2em;
     padding: 1em 1.5em;
     text-decoration: none;
@@ -179,7 +180,7 @@ h3 {
     font-family: 'Courier New', monospace;
     transition: all 0.3s cubic-bezier(.08, .59, .29, .99);
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+    box-shadow: 0 0 10px rgba(81, 162, 218, 0.2);
     position: relative;
     overflow: hidden;
 }
@@ -191,7 +192,7 @@ h3 {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(0, 255, 0, 0.2), transparent);
+    background: linear-gradient(90deg, transparent, rgba(81, 162, 218, 0.2), transparent);
     transition: left 0.5s ease;
 }
 
@@ -200,10 +201,11 @@ h3 {
 }
 
 .link:hover {
-    background-color: rgba(0, 255, 0, 0.15);
-    color: #00ff00;
-    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    background-color: rgba(81, 162, 218, 0.15);
+    color: #51A2DA;
+    box-shadow: 0 0 20px rgba(81, 162, 218, 0.5);
     transform: translateX(5px);
+    border-color: #3c6eb4;
 }
 
 .link i {
@@ -232,26 +234,26 @@ footer {
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
-    color: #00ff00;
-    border-top: 2px solid #00ff00;
+    color: #51A2DA;
+    border-top: 2px solid #51A2DA;
     font-family: 'Courier New', monospace;
 }
 
 footer p {
     margin-top: 10px;
-    color: #00d9ff;
+    color: #3c6eb4;
 }
 
 footer a {
     text-decoration: none;
-    color: #00ff00;
-    text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+    color: #51A2DA;
+    text-shadow: 0 0 5px rgba(81, 162, 218, 0.5);
     transition: all 0.3s ease;
 }
 
 footer a:hover {
-    color: #00ff00;
-    text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+    color: #3c6eb4;
+    text-shadow: 0 0 10px rgba(60, 110, 180, 0.8);
 }
 
 /* Responsive Design */
