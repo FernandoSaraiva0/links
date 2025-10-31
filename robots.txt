@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fernandosaraiva0.github.io/links/sitemap.xml
