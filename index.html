@@ -1,68 +1,147 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="pt-BR">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Fernando Saraiva</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Fernando Saraiva | Infrastructure & DevOps Engineer | Links Profissionais</title>
+    <meta name="description" content="Fernando Saraiva - Infrastructure & DevOps Engineer. Acesse meus links profissionais, artigos no Substack, projetos no GitHub e conecte-se comigo no LinkedIn.">
+    <meta name="keywords" content="Fernando Saraiva, DevOps, Infrastructure Engineer, DevOps Engineer, Substack, GitHub, LinkedIn, Infraestrutura, Cloud, SRE">
+    <meta name="author" content="Fernando Saraiva">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fernandosaraiva0.github.io/links/">
+    <meta property="og:title" content="Fernando Saraiva | Infrastructure & DevOps Engineer">
+    <meta property="og:description" content="Acesse meus links profissionais, artigos técnicos e projetos. Infrastructure & DevOps Engineer.">
+    <meta property="og:image" content="https://fernandosaraiva0.github.io/links/assets/images/profile.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fernandosaraiva0.github.io/links/">
+    <meta property="twitter:title" content="Fernando Saraiva | Infrastructure & DevOps Engineer">
+    <meta property="twitter:description" content="Acesse meus links profissionais, artigos técnicos e projetos.">
+    <meta property="twitter:image" content="https://fernandosaraiva0.github.io/links/assets/images/profile.jpeg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fernandosaraiva0.github.io/links/">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="icon" href="assets/imagens/favicon.png" type="image/x-icon" />
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Fernando Saraiva",
+      "jobTitle": "Infrastructure & DevOps Engineer",
+      "url": "https://fernandosaraiva0.github.io/links/",
+      "sameAs": [
+        "https://github.com/fernandosaraiva0",
+        "https://www.linkedin.com/in/fernandosaraivadesigner/",
+        "https://fernandosaraiva.substack.com/"
+      ],
+      "image": "https://fernandosaraiva0.github.io/links/assets/images/profile.jpeg"
+    }
+    </script>
 </head>
 
 <body>
-
-    <div id="profile">
-        <img id="userPhoto" src="assets/images/profile.jpeg" alt="Profile picture of Fernando Saraiva">
-        <div id="userName">
-            <h1>Fernando Saraiva</h1>
-            <p>Infrastructure & DevOps Engineer</p>
-        </div>
+    <!-- Terminal Header -->
+    <div class="terminal-header">
+        <span class="terminal-button red"></span>
+        <span class="terminal-button yellow"></span>
+        <span class="terminal-button green"></span>
+        <span class="terminal-title">fernando@devops:~$</span>
     </div>
-    
-    <div id="links">
-        <h2>Meus links</h2>
-        <a class="link" href="https://fernandosaraiva.substack.com/" target="_blank"><i class="fa fa-newspaper-o"></i>
-            Substack</a>
-        <a class="link" href="https://github.com/fernandosaraiva0" target="_blank"><i class="fa fa-github"></i> Github</a>
-        <a class="link" href="https://www.linkedin.com/in/fernandosaraivadesigner/" target="_blank"><i class="fa fa-linkedin"
-                aria-hidden="true"></i> LinkedIn</a>
-        <a class="link" href="mailto:fernandotiweb@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> E-mail</a>
-    </div>
- 
-    <section class="recomed">
-        <h3>Recomendações do Fernando</h3>
-        <div class="cards">
 
-            <div class="card">
-                <div class="card-titulo">
-                    <i class="fa fa-newspaper-o"></i>
-                </div>
-
-                <a class="card-link" href="https://sparklp.co/b3aa0118" target="_blank">
-                    <img src="assets/images/dosematinal.png" alt="Leia dose matinal!">
-                    <p>Noticia de forma rápida e descontraida</p>
-                </a>
+    <main>
+        <!-- Profile Section -->
+        <section id="profile" aria-label="Perfil">
+            <div class="terminal-prompt">
+                <span class="prompt-symbol">root@fernando:~#</span>
+                <span class="prompt-command">cat profile.txt</span>
             </div>
-
-
-            <div class="card">
-                <div class="card-titulo">
-                    <i class="fa fa-newspaper-o"></i>
-                </div>
-
-                <a class="card-link" href="https://sparklp.co/b3aa0118" target="_blank">
-                    <img src="assets/images/dosematinal.png" alt="Leia dose matinal!">
-                    <p>Noticia de forma rápida e descontraida</p>
-                </a>
+            <img id="userPhoto" src="assets/images/profile.jpeg" alt="Foto de perfil de Fernando Saraiva, Infrastructure & DevOps Engineer" loading="lazy">
+            <div id="userName">
+                <h1>Fernando Saraiva</h1>
+                <p class="typewriter">Infrastructure & DevOps Engineer</p>
             </div>
+        </section>
 
-        </div>
-    </section>
+        <!-- Links Section -->
+        <nav id="links" aria-label="Links principais">
+            <div class="terminal-prompt">
+                <span class="prompt-symbol">root@fernando:~#</span>
+                <span class="prompt-command">ls -la ./links/</span>
+            </div>
+            <h2>Meus Links</h2>
+            <a class="link" href="https://fernandosaraiva.substack.com/" target="_blank" rel="noopener noreferrer" aria-label="Acesse meu Substack">
+                <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                <span>Substack</span>
+                <span class="link-arrow">→</span>
+            </a>
+            <a class="link" href="https://github.com/fernandosaraiva0" target="_blank" rel="noopener noreferrer" aria-label="Visite meu GitHub">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <span>GitHub</span>
+                <span class="link-arrow">→</span>
+            </a>
+            <a class="link" href="https://www.linkedin.com/in/fernandosaraivadesigner/" target="_blank" rel="noopener noreferrer" aria-label="Conecte-se comigo no LinkedIn">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <span>LinkedIn</span>
+                <span class="link-arrow">→</span>
+            </a>
+            <a class="link" href="mailto:fernandotiweb@gmail.com" aria-label="Envie-me um e-mail">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>E-mail</span>
+                <span class="link-arrow">→</span>
+            </a>
+        </nav>
+
+        <!-- Recommendations Section -->
+        <section class="recomed" aria-label="Recomendações">
+            <div class="terminal-prompt">
+                <span class="prompt-symbol">root@fernando:~#</span>
+                <span class="prompt-command">cat recommendations.md</span>
+            </div>
+            <h3>Recomendações</h3>
+            <div class="cards">
+                <article class="card">
+                    <div class="card-titulo">
+                        <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                    </div>
+                    <a class="card-link" href="https://sparklp.co/b3aa0118" target="_blank" rel="noopener noreferrer" aria-label="Leia a Dose Matinal">
+                        <img src="assets/images/dosematinal.png" alt="Logo da Dose Matinal" loading="lazy">
+                        <p>Notícias de forma rápida e descontraída</p>
+                    </a>
+                </article>
+
+                <article class="card">
+                    <div class="card-titulo">
+                        <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                    </div>
+                    <a class="card-link" href="https://sparklp.co/b3aa0118" target="_blank" rel="noopener noreferrer" aria-label="Leia a Dose Matinal">
+                        <img src="assets/images/dosematinal.png" alt="Logo da Dose Matinal" loading="lazy">
+                        <p>Notícias de forma rápida e descontraída</p>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>Inspirado no projeto <a href="https://github.com/MichaelBarney/LinkFree">LinkFree ❤</a></p>
+        <div class="terminal-prompt">
+            <span class="prompt-symbol">root@fernando:~#</span>
+            <span class="prompt-command">echo "Made with ❤"</span>
+        </div>
+        <p>Inspirado no projeto <a href="https://github.com/MichaelBarney/LinkFree" target="_blank" rel="noopener noreferrer">LinkFree</a></p>
     </footer>
 
 </body>
