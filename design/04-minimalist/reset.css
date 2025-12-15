@@ -1,0 +1,47 @@
+/* ============================================
+   MINIMALIST THEME - Reset & Base Styles
+   Inspired by Unix developer aesthetic
+   ============================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Monaco', 'Courier New', 'Courier', monospace;
+    font-weight: 400;
+    overflow-x: hidden;
+    background: #fafafa;
+    color: #1a1a1a;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+    border-bottom: 1px solid #666;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: #1a1a1a;
+}
+
+/* Simple selection color */
+::selection {
+    background: #1a1a1a;
+    color: #fafafa;
+}
+
+::-moz-selection {
+    background: #1a1a1a;
+    color: #fafafa;
+}

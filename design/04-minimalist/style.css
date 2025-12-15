@@ -1,0 +1,166 @@
+/* ============================================
+   MINIMALIST THEME - Main Styles
+   Clean, simple, content-focused design
+   ============================================ */
+
+/* Hide terminal header - not needed for minimalist design */
+.terminal-header {
+    display: none;
+}
+
+/* Container */
+main {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Profile Section */
+#profile {
+    margin-bottom: 50px;
+}
+
+#userPhoto {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+#userPhoto:hover {
+    filter: grayscale(0%);
+}
+
+#userName h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #1a1a1a;
+    letter-spacing: -0.02em;
+}
+
+#userName p {
+    font-size: 1rem;
+    color: #666;
+    font-weight: 300;
+}
+
+/* Hide terminal prompts */
+.terminal-prompt {
+    display: none;
+}
+
+/* Typography */
+h2, h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 40px 0 20px 0;
+    color: #1a1a1a;
+    letter-spacing: -0.01em;
+}
+
+/* Links Section */
+#links {
+    margin: 40px 0;
+}
+
+#links h2 {
+    margin-bottom: 15px;
+}
+
+.link {
+    display: block;
+    padding: 12px 0;
+    margin-bottom: 8px;
+    color: #1a1a1a;
+    font-size: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.link:hover {
+    border-bottom-color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.link i {
+    margin-right: 12px;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.link-arrow {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.link:hover .link-arrow {
+    opacity: 1;
+}
+
+/* Recommendations Section */
+.recomed {
+    margin: 60px 0;
+}
+
+/* Footer */
+footer {
+    max-width: 650px;
+    margin: 80px auto 0;
+    padding: 40px 20px;
+    border-top: 1px solid #e0e0e0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-top: 8px;
+}
+
+footer a {
+    color: #666;
+    border-bottom: 1px solid #ccc;
+}
+
+footer a:hover {
+    color: #1a1a1a;
+    border-bottom-color: #1a1a1a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 40px 20px;
+    }
+
+    #userName h1 {
+        font-size: 1.5rem;
+    }
+
+    h2, h3 {
+        font-size: 1.1rem;
+    }
+
+    .link {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 30px 15px;
+    }
+
+    #userName h1 {
+        font-size: 1.3rem;
+    }
+
+    footer {
+        margin-top: 60px;
+    }
+}
